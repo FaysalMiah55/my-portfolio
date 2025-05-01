@@ -30,6 +30,12 @@ const Skills = () => {
       count: 30,
     },
     {
+      name: "Cloud(AWS)",
+      icon: <FaAws size={50} />,
+      level: "Intermediate",
+      count: 50,
+    },
+    {
       name: "Python",
       icon: <FaPython size={50} />,
       level: "Intermediate",
@@ -62,12 +68,6 @@ const Skills = () => {
     {
       name: "JavaScript",
       icon: <FaJs size={50} />,
-      level: "Intermediate",
-      count: 50,
-    },
-    {
-      name: "Cloud(AWS)",
-      icon: <FaAws size={50} />,
       level: "Intermediate",
       count: 50,
     },
