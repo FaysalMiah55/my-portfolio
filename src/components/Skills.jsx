@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaBrain, FaPython, FaDatabase } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaBrain, FaPython, FaDatabase, FaAws } from "react-icons/fa";
 import { GiArtificialIntelligence, GiTalk } from "react-icons/gi";
 import { SiMlflow, SiMongodb } from "react-icons/si";
 
@@ -62,8 +62,14 @@ const Skills = () => {
     {
       name: "JavaScript",
       icon: <FaJs size={50} />,
-      level: "Beginner",
-      count: 40,
+      level: "Intermediate",
+      count: 50,
+    },
+    {
+      name: "Cloud(AWS)",
+      icon: <FaAws size={50} />,
+      level: "Intermediate",
+      count: 50,
     },
   ];
 
