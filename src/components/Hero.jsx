@@ -2,10 +2,11 @@ import React, { useRef } from "react";
 import profile from "../assets/images/profile.jpg";
 import Type from "./Type";
 
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import { FaKaggle } from "react-icons/fa";
 
 const socialMediaIcons = [
+  { icon: <FaYoutube />, link: 'https://www.youtube.com/@faysal-miah' },
   { icon: <FaLinkedin />, link: 'https://www.linkedin.com/in/faysal-miah-9376651a5/' },
   { icon: <FaGithub />, link: 'https://github.com/FaysalMiah55' },
   { icon: <FaKaggle />, link: 'https://www.kaggle.com/faysalmiah1721758' },
